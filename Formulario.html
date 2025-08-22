@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio formúlario</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1 style="color: red;">Formulario de Interação</h1>
+
+
+    <form action="">
+        <label for="nome">Digite seu nome:</label>
+        <input type="text" name="nome"<input type="text" placeholder="Digite Aqui"> 
+    
+        <br>
+        <br>
+        <label for="niver" >Digite seu Endereço:</label>
+        <input type="text" name="niver">
+        <br>
+        <br>
+         <label for="niver" >Digite o Bairro:</label>
+        <input type="text" name="niver">
+        <br>
+        <br>
+         <label for="niver" >Digite a Cidade:</label>
+        <input type="text" name="niver">
+        <br>
+        <br>
+        <label for="mensagem">Entre com a sua mensagem</label><br>
+        <textarea id="mensagem" name="mensagem" rows="6" cols="60" placeholder="Digite até 500 caracteres"></textarea>
+        <br>
+        <br>
+        Escolha o(s) modelos(s) de trabalho:
+        <ul><li><input type="checkbox" value="Presencial"> Presencial
+        <br><li><input type="checkbox" 
+        <input type="checkbox" value="Remoto"> Remoto
+        <br></li><li><input type="checkbox" value="Híbrido"> Híbrido
+        <br>
+        <br></li></ul>
+        Escolha o período de trabalho:
+        <ul><li><input type="radio" name="manhã" 
+        value="masculino"> Manhã</li><li><input type="radio" name="Tarde" 
+        value="feminino"> Tarde</li><li> <input type="radio" name="sexo" 
+        value="outro"> Noite
+        <br></li></ul>
+        <br>
+        Escolha um Estado:
+<select id="estado" name="estado">
+  <option value="">--Selecione--</option>
+  <option value="AC">Acre</option>
+  <option value="AL">Alagoas</option>
+  <option value="AP">Amapá</option>
+  <option value="AM">Amazonas</option>
+  <option value="BA">Bahia</option>
+  <option value="CE">Ceará</option>
+  <option value="DF">Distrito Federal</option>
+  <option value="ES" selected>Espírito Santo</option> <!-- Já selecionado -->
+  <option value="GO">Goiás</option>
+  <!-- Continue com os outros estados -->
+</select>
+        <br>
+        <br>
+        <input type="checkbox" value="Remoto"> Aceita os termos de uso do site
+        <br>
+        <br>
+        <input type="submit" value=" Enviar Dados">  
+        <input type="submit" value="Limpar os campos">
+        <br>
+
+        
+</body>
+</html>
