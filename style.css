@@ -1,5 +1,4 @@
-caption{
-  border: 2px solid black;
-}
-#uva{background-color:hsl(195, 84%, 59%);
+body{
+    background-image: linear-gradient(to bottom right, lightgreen, white, lightgreen) ;
+    
 }
